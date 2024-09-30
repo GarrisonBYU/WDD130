@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+  }
+
+  nav {
+    background-color: rgba(245, 245, 0, 0.86);
+    padding: 10px;
+  }
+
+
+
+
+  a {
+    color: rgb(255, 140, 0);
+    margin: 40px;
+  }
+
+  h1 {
+    color: steelblue;
+  }
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+  }
+
+  body {text-align: center
+Font-family: Arial;
+
+}
