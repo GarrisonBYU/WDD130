@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+}
+.blog-post{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: white;
+}
+.blog-states{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.class-1{
+    background-color: steelblue;
+    justify-content: center;
+    justify-items: center;
+    padding: 1px;
+}
+
+.class-2{
+    background-color: steelblue;
+    justify-content: center;
+    justify-items: center;
+    padding: 1px;
+}
+
+.class-3{
+    background-color: steelblue;
+    justify-content: center;
+    justify-items: center;
+    padding: 1px;
+}
