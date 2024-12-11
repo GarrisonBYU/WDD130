@@ -1,0 +1,147 @@
+.the_main{
+    color: blue;
+    margin: 100px;
+}
+
+
+/* header V */
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 50px;
+}
+#logo{
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+}
+#title{
+    grid-column: 2/5;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px black; 
+}
+#Page1{
+    grid-column: 2/3;
+    text-align: center;
+}
+#Page2{
+    grid-column: 3/4;
+    text-align: center;
+}
+#Page3{
+    grid-column: 4/5;
+    text-align: center;
+}
+
+
+/* hero image V */
+.Hero-image-page1{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr;
+}
+#splash{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    font-size: 100px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black; 
+    z-index: 1;
+}
+#heroimage{
+    grid-column: 1/4;
+    grid-row: 1/1;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* overveiw text  */
+.overveiw{
+    grid-template-columns: 1fr;
+    grid-row: auto 1fr;
+    padding-bottom: 50px;
+}
+#overveiw_header{
+    grid-row: 1/2;
+    padding: 15px;
+    text-shadow: 1px 1px 2px black; 
+}
+#overveiw_phara{
+    grid-row: 2/3;
+    text-indent: 2em;
+    font-size: larger;
+}
+#achevements_image{
+    grid-row: 2/3;
+    float: left;
+    width: 350px;
+    height: 250px;
+    padding: 7.5px;
+}
+
+
+
+/* more about the site V  */
+.more{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+#more_title{
+    grid-column: 1/1;
+    grid-row: 1/2;
+    padding: 7.5px;
+    text-shadow: 1px 1px 2px black; 
+}
+#more_phara{
+    grid-column: 1/1;
+    grid-row: 2/3;
+    text-indent: 2em;
+    padding: 7.5px;
+}
+
+
+/* footer V */
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto;
+}
+#logo_footer{
+    grid-column: 1/2;
+    height: 100px;
+    width: 100px;
+}
+#footer_copyright{
+    grid-column: 2/3;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footer_youtube{
+    grid-column: 3/4;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footer_Insta{
+    grid-column: 4/5;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footer_myspace{
+    grid-column: 5/6;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
