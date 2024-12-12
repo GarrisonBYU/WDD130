@@ -1,6 +1,35 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #CAD2C5;
+    --secondary-color:#84A98C;
+    --accent1-color: #52796F;
+    --accent2-color: #354F52;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Josefin Sans";
+    --paragraph-font: Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #84A98C;  /* headlines on a white background */ 
+    --headline-color-on-color: #52796F; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #84A98C; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #52796F; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #84A98C  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #354F52;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #ffffff;
+  }
+
+
 .the_main{
-    color: blue;
     margin: 100px;
+    background-color: #52796F;
+    font-family: Cambria, Cochin;
 }
 
 
@@ -10,6 +39,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 50px;
+    background-color: #84A98C;
 }
 #logo{
     grid-column: 1/2;
@@ -20,19 +50,32 @@
     grid-column: 2/5;
     text-align: center;
     font-size: 80px;
-    text-shadow: 2px 2px 4px black; 
+    color: #354F52;
+    text-shadow: 2px 2px 4px black;
 }
 #Page1{
     grid-column: 2/3;
     text-align: center;
+    color: #CAD2C5;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #84A98C;
 }
 #Page2{
     grid-column: 3/4;
     text-align: center;
+    color: #CAD2C5;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #84A98C;
 }
 #Page3{
     grid-column: 4/5;
     text-align: center;
+    color: #CAD2C5;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #84A98C;
 }
 
 
@@ -50,12 +93,14 @@
     text-align: center;
     text-shadow: 2px 2px 4px black; 
     z-index: 1;
+    color: #354F52;
 }
 #heroimage{
     grid-column: 1/4;
     grid-row: 1/1;
     height: 100%;
     width: 100%;
+    padding-top: 100px;
 }
 
 
@@ -65,23 +110,29 @@
     grid-template-columns: 1fr;
     grid-row: auto 1fr;
     padding-bottom: 50px;
+    background-color: #52796F;
+    color: #CAD2C5;
+    padding-top: 100px;
 }
 #overveiw_header{
     grid-row: 1/2;
     padding: 15px;
     text-shadow: 1px 1px 2px black; 
+    background-color: #84A98C;
+    border-radius: 10px;
 }
 #overveiw_phara{
     grid-row: 2/3;
     text-indent: 2em;
     font-size: larger;
+    margin: 25px;
+    font-size: 25px;
 }
 #achevements_image{
     grid-row: 2/3;
     float: left;
     width: 350px;
-    height: 250px;
-    padding: 7.5px;
+    height: 260px;
 }
 
 
@@ -91,19 +142,45 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    background-color: #52796F;
+    color: #CAD2C5;
 }
 #more_title{
     grid-column: 1/1;
     grid-row: 1/2;
     padding: 7.5px;
-    text-shadow: 1px 1px 2px black; 
+    text-shadow: 1px 1px 2px black;
+    background-color: #84A98C;
+    border-radius: 10px; 
 }
 #more_phara{
     grid-column: 1/1;
     grid-row: 2/3;
     text-indent: 2em;
     padding: 7.5px;
+    margin: 25px;
+    font-size: 25px;
 }
+
+
+
+
+/* forrward arrow  */
+.arrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#forwardArrow{
+    grid-column: 2/3;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+}
+
+
+
+
 
 
 /* footer V */
@@ -111,6 +188,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-row: auto;
+    background-color: #84A98C;
+    padding: 50px;
+    
 }
 #logo_footer{
     grid-column: 1/2;
