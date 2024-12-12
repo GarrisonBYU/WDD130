@@ -138,8 +138,9 @@
 #achevements_image{
     grid-row: 2/3;
     float: left;
-    width: 350px;
+    width: 250px;
     height: 260px;
+    padding: 10px;
 }
 
 

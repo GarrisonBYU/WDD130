@@ -96,17 +96,11 @@
     grid-template-columns: 1fr 1fr;
 
 }
-#forwardArrow{
+#backarrow{
     grid-column: 1/2;
     height: 100px;
     width: 100px;
 
-}
-#backArrow{
-    grid-column: 3/4;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
 }
 
 /* footer V */
