@@ -102,9 +102,9 @@
 #hero_image_image{
     grid-column: 1/4;
     grid-row: 1/1;
-    height: 800px;
+    height: 100%;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -218,6 +218,7 @@
     height: 500px;
     width: 700px;
     padding-top: 170px;
+    padding-right: 25px;
 }
 
 
