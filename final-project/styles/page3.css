@@ -36,7 +36,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 50px;
     background-color: #84A98C;
 }
 #logo{
@@ -82,6 +81,33 @@
     margin: auto;
     padding: 10px;
 }
+
+
+.theHero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#splash{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black; 
+    z-index: 1;
+    color: #CAD2C5;
+    padding-top: 50px;
+}
+#hero_img{
+    grid-column: 1/4;
+    grid-row: 1/1;
+    height: 75%;
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+
 
 
 

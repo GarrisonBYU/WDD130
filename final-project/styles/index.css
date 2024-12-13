@@ -39,7 +39,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 50px;
     background-color: #84A98C;
     
     
@@ -171,7 +170,7 @@
     background-color: #84A98C;
     border-radius: 10px; 
     margin: auto;
-    text-align: center;
+    text-align: center;3
 }
 #more_phara{
     grid-column: 1/1;
