@@ -27,7 +27,8 @@
 
 
 .the_main{
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: #52796F;
     font-family: Cambria, Cochin;
 }
@@ -40,6 +41,8 @@
     grid-template-rows: 1fr;
     padding: 50px;
     background-color: #84A98C;
+    
+    
 }
 #logo{
     grid-column: 1/2;
@@ -85,7 +88,6 @@
     padding: 10px;
 }
 
-
 /* hero image V */
 .Hero-image-page1{
     display: grid;
@@ -107,8 +109,11 @@
     grid-row: 1/1;
     height: 100%;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
+
+
+
 
 
 
@@ -119,7 +124,7 @@
     padding-bottom: 50px;
     background-color: #52796F;
     color: #CAD2C5;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 #overveiw_header{
     grid-row: 1/2;
@@ -129,15 +134,18 @@
     border-radius: 10px;
 }
 #overveiw_phara{
-    grid-row: 2/3;
+    grid-column: 1/3;
     text-indent: 2em;
-    font-size: larger;
     margin: 25px;
     font-size: 25px;
+    background-color: #354F52;
+    padding: 10px;
+    border-radius: 15px;
 }
 #achevements_image{
-    grid-row: 2/3;
-    float: left;
+    grid-column: 1/3;
+    float: inherit;
+    float: right;
     width: 250px;
     height: 260px;
     padding: 10px;
@@ -165,9 +173,11 @@
     grid-column: 1/1;
     grid-row: 2/3;
     text-indent: 2em;
-    padding: 7.5px;
     margin: 25px;
     font-size: 25px;
+    background-color: #354F52;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 
