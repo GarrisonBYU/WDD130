@@ -97,20 +97,18 @@
     text-shadow: 2px 2px 4px black; 
     z-index: 1;
     color: #CAD2C5;
-    padding-top: 350px;
+    padding-top: 80px;
 }
 #hero_image_image{
     grid-column: 1/4;
     grid-row: 1/1;
-    height: 100%;
+    height: 80%;
     width: 100%;
-    padding-top: 50px;
 }
 
 
 /* how to begin  */
 .begin{
-    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
     grid-row: 1fr;
@@ -139,7 +137,7 @@
     grid-column: 2/3;
     grid-row: 1/3;
     padding: 25px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 
